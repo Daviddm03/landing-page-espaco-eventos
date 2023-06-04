@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;500;700&family=Roboto+Condensed:ital,wght@0,300;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header {
+    padding: 0 2%;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to right , rgb(216, 216, 38) , rgb(27, 167, 27) , rgb(44, 152, 224) , rgb(199, 32, 124) , orange)
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    padding: 5px 0;   
+}
+
+
+.container-banner {
+    padding: 0 2%;
+    width: 100%;
+    height: 400px;
+    background-image: url('imagens/39777300-2149368041772148-3696206137192873984-n_13_234983-1556305689.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container-banner > .center {
+    height: 100%;
+}
+
+.container-list {
+    float: left; 
+    width: 50%;   
+    height: 65%;
+    background-color: rgb(0, 0, 0, 0.8);
+    margin-top: 6%; 
+    margin-left: 26%; 
+    padding: 2% 2%;
+} 
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list li {
+    color: white;
+    margin-top: 15px;
+    font-family: kanit;
+} 
+
+.container-list ul li em { 
+    color: rgb(0, 89, 255);
+}
+
+.container-2 {
+    background-color: rgb(211, 70, 240); 
+    text-align: center;
+    padding: 40px 2%;
+}
+
+.container-2 h2 {
+    text-align: center;
+    font-family: kanit;
+    font-size: 30px;
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.container-2 p {
+    text-align: center;
+    font-family: kanit;
+    width: 100%;
+    max-width: 768px;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.container-2 p em {
+    color:  rgb(0, 89, 255);
+    font-weight: bold;
+}
+
+.arrow {
+    position: relative;
+    top: 80px;
+    left: 50%;
+    margin-left: -40px; 
+    width: 80px;
+    height: 80px;
+    background-image: url(imagens/icons8-divisa-circulada-à-abaixo-64.png);
+    background-size: 100% 100%;
+}
+
+.section-1 {
+    padding: 90px 2%;
+    background-color:  rgb(211, 70, 240);
+}
+
+.section-1 h2 {
+    text-align: center;
+    font-family: Kanit;
+    font-size: 30px;
+}
+
+.section-1 p {
+    text-align: center;
+    font-family: kanit;
+    width: 300px;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 20px;
+
+}
+.section-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 262px;
+}
+
+.container-section {
+    margin-top: 40px;
+    text-align: center; 
+}
+
+.text-container-single h2 {
+    margin-top: 40px;
+}
+
+.container-single {
+    float: left;
+    width: 33.333%;
+    background-color: rgb(211, 70, 240); 
+}
+
+.footer{
+    padding: 20px 0;
+    border-top: 2px solid rgb(0, 89, 255);
+    text-align: center;
+    color: black;
+    background-color: rgb(211, 70, 240);
+}
+
+.footer p {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: kanit;
+}
+
+ @media screen and (max-width: 1111px) { 
+    .container-single {
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    .container-list {
+        height: 90%;
+        margin-top: 5%;
+    }
+}
+
+    
